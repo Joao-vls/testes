@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+//jogoburro jogodoburro
 typedef struct {
 char cart[4];
 }Cartas;
