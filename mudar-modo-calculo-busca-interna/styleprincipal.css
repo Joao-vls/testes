@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("backgrund.png");
+    background-color: rgb(218, 247, 218);
+   
+}
+.darkbody{
+    background-color: black;
+    color: rgb(164, 231, 150);
+}
+.darkbody .plan{
+    background-color: rgb(175, 62, 62);
+}
+
+.mai{
+    
+    white-space:nowrap;
+    margin-top: 10%;
+    overflow-x: auto;
+    
+}
+
+ .plan{
+  
+    border: 2px solid green;
+    width: 180px;
+    height: 205px;
+    display: inline-block;
+    background-color:white;
+    margin-left: 8px;
+    
+}
+
+ .plan img{
+    
+    margin-left: 12%;
+    width: 128px;
+    height: 80px;
+}
+.plan p{
+    white-space: normal;
+    text-align: center;
+}
+.plan button,.plan a{
+    background:transparent; 
+    width: 33px;
+    height: 19px;
+    background-size: 16px 16px;
+    margin-top: 19px;
+    margin-left: 20%;
+    border: 0px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    
+}
+.plan a{  
+    text-decoration: none;
+    color: black;
+    
+}
+.plan button img{
+    width: 29px;
+    height: 12.5px;
+}
+.plan button:focus, .plan button:focus img{
+    display:none; 
+    position: fixed; 
+}
+
+
+.plan  button:hover,.plan a:hover{
+    transition-duration:0.5s ;
+    background-color: rgb(202, 247, 202);
+    border-radius: 10px;
+    
+}
+#clpo{
+    position: fixed;
+    width: 180px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    top: 90%;
+    right: 0%;
+    background-color:green;
+    color: aliceblue;
+    
+}
+
+#clpo button{
+    
+    background-image: url("x.png");
+    background-size: 10px 10px;
+    height: 14px;
+    width: 14px;
+}
+#meu {
+    position: absolute;
+    right: 0px;
+    font-size: 38px;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+*{margin: 0px;padding: 0px; position: relative;}
+body{
+    background-color: rgb(14, 11, 24);
+}
+header{
+    color: blue;
+    position: relative;
+    background-color: rgb(60, 60, 93);
+    width: 100%;
+    height: 70px;
+}
+header h1{
+    font-size:50px;
+          
+}
+header input[type="text"]{
+    position: absolute;
+    width: 30%;
+    height: 35px;
+    right:3%;
+    top:20%;
+    border: none;
+    border-radius: 20px;
+    color: rgb(205, 205, 241);
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 46px;
+    background-color: rgb(118, 118, 135);
+    display: none;
+}
+header input[type="button"]{
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    right: 4%;
+    top: 30%;
+    border-radius: 70px;
+    background-image:url("lupa.png");
+    background-size:100% 100%;
+    display:none;
+}
+header button{
+    position: absolute;
+    right:2%;
+    top: 5px;
+    width: 5%;
+    height: 85%;
+    border-radius: 100%;
+    cursor: pointer;
+    background:no-repeat ;
+    background-color: rgb(60, 60, 93);
+    background-image: url("lupa.png");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.blo{
+    margin-top: 5%;
+    border: 2px solid rgb(2, 36, 109);
+    width: 99.58%;
+    height: 450px;
+    display: block;
+    position: relative;    
+}
+.blo img{   
+    width: 99.99%;
+    height: 449.9px;
+}
+.blo button[name="next"],.blo button[name="prev"]{
+    height: 100px;
+    font-size: 50px;
+    background-color: black;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    position:absolute;
+    top: 30%;
+}
+.blo button[name="next"]{   
+    right: 0.4%;
+}
+.blo button[name="prev"]{
+    left: 0.4%;
+}
+
+.pro{
+    position: relative;
+    white-space:nowrap;   
+    overflow-x:hidden; 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;  
+}
+.prods{ 
+    border: 1px solid rgb(2, 4, 10);
+    background-image: linear-gradient(69deg,black,rgb(0, 0, 175));
+    color: blue;
+    width: 220px;
+    height: 250px;
+    display: inline-block;
+    background-color:white;
+    margin-right: 5px;
+    position: relative;   
+}
+.prods img{ 
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-left: 20%;
+    width: 128px;
+    height: 80px;
+}
+.produto{
+    position: relative;
+    
+}
+.produto button{
+    color: rgb(53, 71, 233);
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: black;
+    cursor: pointer;
+}
+.produto button[name="prev"]{
+    left: 30%;
+}
+.produto button[name="next"]{
+    right: 30%;
+}
+
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgba(0, 0, 255, 0.11);
+    border-radius: 20px;
+   
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 162, 255);
+  }
+
+  footer {
+    top: 110%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(2, 2, 71);
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+.mais{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    width: 40%;
+    height: 400px; 
+    top: 20%;  
+    left: 30%; 
+    
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+.mais button{
+    color: rgb(53, 71, 233);
+    font-size:100%;
+    position: absolute;
+    top: -6px;
+    right: -1%;
+    width: 10%;
+    height: 10%;
+    border-radius: 100px;
+    
+    background: black;
+    cursor: pointer;
+}
+.mais input{
+
+width: 80%;
+height: 30px;
+margin-left: 10%;
+margin-top: 10%;
+background-color: rgb(15, 15, 29);
+border: none;
+border-radius: 20px;
+color: rgb(205, 205, 241);
+font-size: 50%;
+padding-left: 10px;
+}
+.mais input[type="button"]{
+    cursor: pointer;
+}

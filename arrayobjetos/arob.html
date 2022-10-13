@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="ao.js">
+
+    </script>
+    <link rel="stylesheet" href="div.css">
+    <title>Document</title>
+</head>
+<body onload="next();copy();">
+    <header>
+        <h1>
+            Objetos
+        </h1>
+        <button onclick="imp('block','none');"></button>
+        <input type="text" onblur="imp('none','block');">
+        <input type="button" onfocus="db('block');">
+    </header>
+    <div class="mais">
+        <button onclick="db('none');">X</button>
+        <input type="text" value="tipo...">
+        <input type="text" value="name...">
+        <input type="text" value="valor...">
+        <input type="text" value="Link da imagem..">
+        <input type="button" value="Enviar" onclick="nobj();db('none');">
+    </div>
+    <main>
+    <div class="blo">
+       <a href="#" target="_blank" rel="noopener noreferrer"><img name="imagens" alt=""></a>
+       <button name="prev" onclick="prev();">&lt;</button> 
+       <button name="next" onclick="next();">&gt;</button>
+    </div>
+    <div class="produto">
+    <button name="prev" onclick="prevscroll();">&lt;</button>
+    <button name="next" onclick="nextscroll();">&gt;</button>
+    <div class="pro">  
+        <div class="prods"><img  src="" alt=""><p></p></div> 
+    </div>
+   </div>
+   </main>
+   <footer>
+     <a href="#">lorem</a> <button onclick="db('block');">mais</button>
+   </footer>
+</body>
+</html>

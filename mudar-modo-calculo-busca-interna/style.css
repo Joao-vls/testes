@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    color: green;
+    text-shadow: 1px 1px 0px rgb(56, 71, 0);
+    margin-top: 0px;
+    font-size: 44px;
+    padding-left: 1.5px;
+    
+}
+
+#busca a > img{
+    position: absolute;
+    text-decoration: none;
+    filter: opacity(0.1) drop-shadow(0 0 0 rgb(157, 255, 0));
+    width: 31px;
+    height: 31px;
+}
+#busca input{
+    position: absolute; 
+ 
+}
+#busca  input[type="button"]{
+    width: 31px;
+    height: 31px;
+    border:0px;
+    cursor: pointer;
+    background: transparent;
+    background-image: url("lupa.png") ;
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(157, 255, 0));
+    background-size: 31px 31px;
+}
+
+
+#busca  input[type="search"]{
+    display: none;
+    left:38.5px  
+}
+
+
+.menu{
+
+    width: 80px;
+    text-align: center;
+    list-style: none;
+    border:1px solid green;
+    float:right;
+    margin-right: 1.5px;
+    margin-top: 0px;
+    
+   
+ }
+ .menu li{
+    width: 81px;
+    position:relative;
+
+    border-right:1px solid green;
+}
+.menu li a{
+    
+    color:green; 
+    text-decoration:none; 
+    padding:5px 10px;   
+    display:block;
+}
+
+.menu li a:hover{
+    background-color: green;
+    color:white;
+    box-shadow:0 3px 10px 0 #CCC;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li ul{
+    
+    position:absolute;
+    top:28.5px;
+    left:-1px;
+    background-color:#fff;
+    display:none;
+    }
+    .menu li:hover ul{
+        display:block;
+    }
+    
+    .menu li ul li{
+        border:1px solid green;
+        list-style-type: none;
+        width: 80px;
+        }
